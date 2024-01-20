@@ -1,0 +1,9 @@
+python is a dynamic type language  (a = "abcd")
+
+
+github
+PS C:\Ansaf py> git init
+PS C:\Ansaf py> git add .
+PS C:\Ansaf py> git commit
+git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
