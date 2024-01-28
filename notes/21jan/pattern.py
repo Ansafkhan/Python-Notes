@@ -105,23 +105,32 @@
 #         print ("$",end= " ")
 #         #for next line
 #     print("$")
-row =5
-for l in range (row ):
-    # for space
-    for m in range (l):
-        print (" ",end = "")
-        # for star
-    for n in range (row -l):
-        print ("$",end= " ")
-        #for next line
-    print("$")
-for i in range (row +1):
-    # for space
-    for j in range (row -i):
-        print (" ",end = "")
-        # for star
-    for k in range (i):
-        print ("$",end= " ")
-        #for next line
-    print("$")
+# row =5
+# for l in range (row ):
+#     # for space
+#     for m in range (l):
+#         print (" ",end = "")
+#         # for star
+#     for n in range (row -l):
+#         print ("$",end= " ")
+#         #for next line
+#     print("$")
+# for i in range (row +1):
+#     # for space
+#     for j in range (row -i):
+#         print (" ",end = "")
+#         # for star
+#     for k in range (i):
+#         print ("$",end= " ")
+#         #for next line
+#     print("$")
+row = 7
+for i in range (row, -1, -1):
+    for j in range (i):
+     print ( "*" , end ="")
+    print ("")
+for k in range (row, -1, -1):
+    for l in range (k):
+     print ( "*" , end ="")
+    print ("")
 
